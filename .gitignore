@@ -4,4 +4,5 @@ tokenized_dataset
 pan11
 test/getGeneratedTextContent.ipynb
 .ipynb_checkpoints
-script
+/script
+tokenize_datasets.sh
