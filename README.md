@@ -37,3 +37,5 @@ To tokenize a downloaded dataset, run the `tokenize_dataset.py` script with the 
 
 Note that you can specify a different dataset by modifying the `dataset_name` , `split_name`, `subset_name` variables in the `download_dataset.py` script, and you can specify a different tokenization method by modifying variable by yourself in the `tokenize_dataset.py` script.
 
+## Example
+To check some example usages(i.e. download and tokenize openwebtext), please check the codes in the folder `example`
