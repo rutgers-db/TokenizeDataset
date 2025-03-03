@@ -39,3 +39,10 @@ Note that you can specify a different dataset by modifying the `dataset_name` , 
 
 ## Example
 To check some example usages(i.e. download and tokenize openwebtext), please check the codes in the folder `example`
+
+
+## The way to tokenize PAN11
+You can find the code in the folder "extract_plagiarism_sequence_from_pan11" that extracts all the suspicious and source plagiarism sequence pairs. The suspicious texts are the query texts used in the project 
+"https://github.com/rutgers-db/DuplicateSearch_OPH". To construct the bin file of PAN11 
+for indexing in duplicate search as described in our paper, you can use the 
+example/tokenizePAN11.py script.
